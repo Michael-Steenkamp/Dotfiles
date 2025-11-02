@@ -11,7 +11,12 @@
 # .gitignore
 !/.gitignore
 
-
+# hyprland.conf
+!/.config/
+/.config/*
+!/.config/hypr/
+/.config/hypr/*
+!/.config/hypr/hyprland.conf
 
 
 
