@@ -20,5 +20,7 @@
 !/.config/hypr/hyprpaper.conf
 !/.config/hypr/scripts/
 !/.config/hypr/wallpapers/
+!/.config/hypr/scripts/*
+!/.config/hypr/wallpapers/*
 
 
