@@ -11,11 +11,9 @@
 # .gitignore
 !/.gitignore
 
+# hypr
 !/.config/
 /.config/*
-
-
-# hypr
 !/.config/hypr/
 /.config/hypr/*
 !/.config/hypr/hyprland.conf
@@ -26,7 +24,9 @@
 !/.config/hypr/wallpapers/*
 
 # kitty
+!/.config/
+/.config/*
 !/.config/kitty/
-/.config/kitty/*
+!/.config/kitty/*
 
 
