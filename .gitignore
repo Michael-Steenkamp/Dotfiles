@@ -1,15 +1,13 @@
 #
 # A safe .gitignore for a dotfiles repository.
 #
-# 1. Ignore EVERYTHING by default.
+# Ignore EVERYTHING by default.
 *
-
-# 2. Whitelist ONLY the files/folders you want to track.
-#    You must "un-ignore" every level of the path.
-#
 
 # .gitignore
 !/.gitignore
+# README
+!/README.md
 
 # hypr
 !/.config/
@@ -29,4 +27,10 @@
 !/.config/kitty/
 !/.config/kitty/*
 
+# dunst
+!/.config/
+/.config/*
+!/.config/dunst/
+/.config/dunst/*
+!/.config/dunst/dunstrc
 
