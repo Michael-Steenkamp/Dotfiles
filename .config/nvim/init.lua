@@ -28,8 +28,8 @@ require("lazy").setup({
 	spec = {
 		{ import = "plugins" }
 	},
-	install = { colorscheme = { "retrobox" } },
-	checker = { enabled = true },
+	install = { colorscheme = { "retrobox" } }, -- Lazy gui colorscheme
+	checker = { enabled = true }, -- Auto check plugin updates
 })
 
 require("config.keymaps") -- Import key-mappings from lua/config/keymaps.lua
