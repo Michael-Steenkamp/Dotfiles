@@ -1,36 +1,39 @@
 #
-# A safe .gitignore for a dotfiles repository.
-#
 # Ignore EVERYTHING by default.
 *
 
-# .gitignore
+# .gitignore and README.
 !/.gitignore
-# README
 !/README.md
 
-# hypr
+# .config directory (but not its contents).
 !/.config/
+
+# all contents of .config.
 /.config/*
+
+#
+# --- Whitelisted Configs ---
+#
+
+# archguide (package list)
+!/.config/archguide.txt
+
+# hypr
 !/.config/hypr/
 /.config/hypr/*
 !/.config/hypr/hyprland.conf
 !/.config/hypr/hyprpaper.conf
 !/.config/hypr/scripts/
-!/.config/hypr/wallpapers/
 !/.config/hypr/scripts/*
+!/.config/hypr/wallpapers/
 !/.config/hypr/wallpapers/*
 
-# kitty
-!/.config/
-/.config/*
+# kitty 
 !/.config/kitty/
 !/.config/kitty/*
 
 # dunst
-!/.config/
-/.config/*
 !/.config/dunst/
 /.config/dunst/*
 !/.config/dunst/dunstrc
-
