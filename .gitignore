@@ -18,6 +18,8 @@
 
 # archguide (package list)
 !/.config/archguide.md
+# starship.toml
+!/.config/starship.toml
 
 # hypr
 !/.config/hypr/
