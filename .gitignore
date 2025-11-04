@@ -38,6 +38,18 @@
 !/.config/waybar/mocha.css
 !/.config/waybar/style.css
 
+# nvim
+!/.config/nvim/
+/.config/nvim/*
+!/.config/nvim/init.lua
+!/.config/nvim/lua/
+/.config/nvim/lua/*
+!/.config/nvim/lua/config/
+!/.config/nvim/lua/plugins/
+!/.config/nvim/lua/utils/
+
+
+
 # kitty 
 !/.config/kitty/
 !/.config/kitty/*
