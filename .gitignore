@@ -17,7 +17,7 @@
 #
 
 # archguide (package list)
-!/.config/archguide.txt
+!/.config/archguide.md
 
 # hypr
 !/.config/hypr/
