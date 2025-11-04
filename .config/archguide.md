@@ -1,6 +1,6 @@
 # Arch Guide - Packages & Applications
 ## System:
-```  Bootloader ``` | <a href="https://www.reddit.com/r/archlinux/comments/13d7rec/setting_up_secure_boot_while_dual_booting_windows/">refind</a>
+``` Bootloader ``` | <a href="https://www.reddit.com/r/archlinux/comments/13d7rec/setting_up_secure_boot_while_dual_booting_windows/">refind</a>
 
 ``` Network ``` | <a href="https://wiki.archlinux.org/title/NetworkManager#Configuration">networkmanager</a> <a href="https://wiki.archlinux.org/title/NetworkManager#Configuration">nm-connection-editor</a>
 
@@ -10,7 +10,7 @@
 ## Essential:
 ``` Text Editor ``` | <a href="https://neovim.io/">nvim</a> <a href="https://linux.die.net/man/1/nano">nano</a>
 
-`` Version Control ``` | <a href="https://wiki.archlinux.org/title/Git">git</a>
+``` Version Control ``` | <a href="https://wiki.archlinux.org/title/Git">git</a>
 
 ``` SSH Client ``` | <a href="https://wiki.archlinux.org/title/OpenSSH">openssh</a>
  
