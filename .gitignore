@@ -29,6 +29,13 @@
 !/.config/hypr/wallpapers/
 !/.config/hypr/wallpapers/*
 
+# waybar
+!/.config/waybar/
+/.config/waybar/*
+!/.config/waybar/config.jsonc
+!/.config/waybar/mocha.css
+!/.config/waybar/style.css
+
 # kitty 
 !/.config/kitty/
 !/.config/kitty/*
@@ -37,3 +44,13 @@
 !/.config/dunst/
 /.config/dunst/*
 !/.config/dunst/dunstrc
+
+# fish
+!/.config/fish/
+/.config/fish/*
+!/.config/fish/config.fish
+!/.config/fish/functions/
+/.config/fish/functions/*
+!/.config/fish/functions/loadkey.fish
+!/.config/fish/functions/y.fish
+

@@ -1,0 +1,25 @@
+@import "mocha.css";
+
+* {
+    /* `otf-font-awesome` is required to be installed for icons */
+    font-family: FontAwesome, kodemono; 
+    font-size: 18px;
+
+    /* border: none; */
+    border-radius: 15px;
+    color: @text;
+}
+
+window#waybar {
+    background-color: alpha(@base, 0.9);
+}
+
+.modules-left {
+}
+
+.modules-center {
+}
+
+.modules-right {
+}
+
